@@ -19,7 +19,7 @@ provider "aws" {
 #EC2
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-0ce2cb35386fc22e9"
+  ami           = "ami-0ce2cb35386fce9"
   instance_type = "t2.micro"
   count = 1
   availability_zone = "us-west-1a"
